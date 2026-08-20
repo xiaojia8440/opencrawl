@@ -256,7 +256,7 @@ class DataCleaner:
                     issues.append("重复字符比例过高")
 
             # 检查6: 特殊字符比例
-            special_count = len(re.findall(r'[^\w\s\u4e00-\u9fff.,;:!?，。；：！？、""''（）\-]', value))
+            special_count = len(re.findall(r'[^\w\s\u4e00-\u9fff.,;:!?，。；：！？、""''（）-]', value))
             special_ratio = special_count / len(value) if value else 0
             if special_ratio > 0.3:
                 field_score -= 0.2
