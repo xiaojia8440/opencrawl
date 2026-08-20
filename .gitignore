@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 爬虫数据（不提交爬取结果）
+data/
+downloads/
+images/
+screenshots/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+.crawl_history.json
+.request_queue.json
+cookies.json
+storage_state.json
+
+# 配置（含密钥）
+.env
+config.local.yaml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时文件
+*.tmp
+*.bak
