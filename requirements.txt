@@ -1,0 +1,28 @@
+# HTTP（用户自行实现 fetcher，基础请求可选）
+requests>=2.31.0
+httpx>=0.27.0
+
+# HTML 解析
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# AI 提取（可选）
+openai>=1.12.0
+
+# 配置
+pyyaml>=6.0
+
+# 数据处理
+pandas>=2.0.0
+
+# 命令行美化（可选）
+rich>=13.7.0
+tqdm>=4.66.0
+
+# 图片去重（可选）
+Pillow>=10.0.0
+imagehash>=4.3.0
+
+# 导出格式支持（可选）
+openpyxl>=3.1.0       # Excel
+python-docx>=1.1.0    # Word DOCX
